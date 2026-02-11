@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt">
   <head>
     <meta charset="UTF-8" />
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
+
   <body>
     <div class="page">
       <header class="header">
@@ -22,7 +23,7 @@
               <a class="nav__link" href="#staff">Escolhas da Equipe</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Eventos</a>
+              <a class="nav__link" href="#events">Eventos</a>
             </li>
             <li>
               <a class="nav__link" href="#">Seja um membro</a>
@@ -128,67 +129,95 @@
             </li>
           </ul>
         </section>
-        <section class="events">
-  <div class="events__content">
-    <h2 class="events__heading">Próximos eventos:</h2>
-    <h3 class="events__title">
-     Em homenagem à Joan Feynman: Mulheres na Astrofísica
-    </h3>
-    <div class="event-info events__info-section">
-      <div class="event-info__item">
-        <img
-          src="./images/icon_calendar.svg"
-          alt="Calendar icon"
-          class="event-info__icon"
-        />
-        <p class="event-info__text">Segunda-feira, 12 de janeiro</p>
-      </div>
-      <div class="event-info__item">
-        <img
-          src="./images/icon_pin.svg"
-          alt="Pin icon"
-          class="event-info__icon"
-        />
-        <p class="event-info__text">
-          Sala de Conferências da Biblioteca Triple Peaks e Online
-        </p>
-      </div>
-    </div>
-    <p class="events__description">
-      Neste evento, que homenageia a pessoa que inspirou o nome da biblioteca, vamos ter uma
-      palestra que vai nos levar para uma jornada explorando alguns das pesquisadoras mais
-      proeminentes no mundo da ciência espacial. É
-      fácil aceitar o equívoco de que esse campo era em sua maioria
-      dominado por homens, mas nossa palestra visa mudar essa noção e
-      provar que esse não é o caso desde, pelo menos,
-      o século XVIII.
-    </p>
-    <a href="#" class="events__more" id="events__more">Mais eventos &rarr;</a>
-  </div>
-  </div>
-  <div class="events__cover">
-    <img class="events__image" src="../cafe.png/images" alt="sala de cafe">
-    <div class="person person_name_feynman"> 
-      <p class="person__caption">Joan Feynman</p>
-      <img class="person__image person__image_size_l" src="person_feynman.png/images" alt="rosto de Feynman">
-    </div>
-    <div class="person person_name_burbidge"> 
-      <p class="person__caption">Margaret Burbidge</p>
-      <img class="person__image person__image_size_l" src="person_burbidge.png/images" alt="rosto de Burbidge">
-    </div>
-    <div class="person person_name_cannon"> 
-      <p class="person__caption">Annie Jump Cannon</p>
-      <img class="person__image person__image_size_l" src="person_cannon.png/images" alt="rosto de Cannon">
-    </div>
-    <div class="person person_name_mitchell"> 
-      <p class="person__caption">Maria Mitchell</p>
-      <img class="person__image person__image_size_l" src="person_mitchell.png/images" alt="rosto de Mitchell">
-    </div>
-    <div class="person person_name_tarter"> 
-      <p class="person__caption">Jill Tarter</p>
-      <img class="person__image person__image_size_l" src="person_tarter.png/images" alt="rosto de Tarter">
-    </div>
-</section>
+        <section class="events" id="events">
+          <div class="events__content">
+            <h2 class="events__heading">Próximos eventos:</h2>
+            <h3 class="events__title">
+              Em homenagem à Joan Feynman: Mulheres na Astrofísica
+            </h3>
+            <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <img
+                  src="./images/icon_calendar.svg"
+                  alt="Calendar icon"
+                  class="event-info__icon"
+                />
+                <p class="event-info__text">Segunda-feira, 12 de janeiro</p>
+              </div>
+              <div class="event-info__item">
+                <img
+                  src="./images/icon_pin.svg"
+                  alt="Pin icon"
+                  class="event-info__icon"
+                />
+                <p class="event-info__text">
+                  Sala de Conferências da Biblioteca Triple Peaks e Online
+                </p>
+              </div>
+            </div>
+            <p class="events__description">
+              Neste evento, que homenageia a pessoa que inspirou o nome da
+              biblioteca, vamos ter uma palestra que vai nos levar para uma
+              jornada explorando alguns das pesquisadoras mais proeminentes no
+              mundo da ciência espacial. É fácil aceitar o equívoco de que esse
+              campo era em sua maioria dominado por homens, mas nossa palestra
+              visa mudar essa noção e provar que esse não é o caso desde, pelo
+              menos, o século XVIII.
+            </p>
+            <a href="#" class="events__more" id="events__more"
+              >Mais eventos &rarr;</a
+            >
+          </div>
+          <div class="events__cover">
+            <img
+              class="events__image"
+              src="./images/cafe.png"
+              alt="sala de cafe"
+            />
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img
+                class="person__image person__image_size_l"
+                src="./images/person_feynman.png"
+                alt="rosto de Feynman"
+              />
+            </div>
+            <div class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
+              <img
+                class="person__image person__image_size_m"
+                src="./images/person_burbidge.png"
+                alt="rosto de Burbidge"
+              />
+            </div>
+            <div class="person person_name_cannon">
+              
+              <img
+                class="person__image person__image_size_m"
+                src="./images/person_cannon.png"
+                alt="rosto de Cannon"
+              />
+              <p class="person__caption">Annie Jump Cannon</p>
+            </div>
+            <div class="person person_name_mitchell">
+              <img
+                class="person__image person__image_size_s"
+                src="./images/person_mitchell.png"
+                alt="rosto de Mitchell"
+              />
+              <p class="person__caption">Maria Mitchell</p>
+            </div>
+            <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img
+                class="person__image person__image_size_m"
+                src="./images/person_tarter.png"
+                alt="rosto de Tarter"
+              />
+              
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   </body>
